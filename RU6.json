@@ -16,7 +16,7 @@
   "output": {
     "locationTags": [],
     "panoIdCountryCodes": [],
-    "globalHeadingExpression": "DrivingDirectionAngle + 0",
+    "globalHeadingExpression": "DrivingDirectionAngle",
     "globalZoom": null,
     "globalPitch": null
   },
