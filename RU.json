@@ -4,15 +4,19 @@
     "RU"
   ],
   "distributionStrategy": {
-    "key": "FixedCountByMaxMinDistance",
-    "minMinDistance": 200,
-    "locationCountGoal": 10000,
+    "key": "MaxCountByFixedMinDistance",
+    "FixedMinDistance": 1000
     "countryDistributionFromMap": null
+  },
+  "subdivisionInclusions": {
+    "RU": [
+      "RU-MUR"
+    ]
   },
   "output": {
     "locationTags": [],
     "panoIdCountryCodes": [],
-    "globalHeadingExpression": "DrivingDirectionAngle + 90",
+    "globalHeadingExpression": "DrivingDirectionAngle + 0",
     "globalZoom": null,
     "globalPitch": null
   },
