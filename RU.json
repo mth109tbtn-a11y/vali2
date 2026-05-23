@@ -3,6 +3,11 @@
   "countryCodes": [
     "RU"
   ],
+  "subdivisionInclusions": {
+    "RU": [
+      "RU-MUR"
+    ]
+  },
   "distributionStrategy": {
     "key": "FixedCountByMaxMinDistance",
     "minMinDistance": 200,
