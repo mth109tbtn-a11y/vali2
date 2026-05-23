@@ -19,6 +19,6 @@
   },
   "output": {
     "globalHeadingExpression": "DrivingDirectionAngle + 90"
-  }
+  },
   "globalLocationFilter": ""
 }
