@@ -17,8 +17,5 @@
     "globalZoom": null,
     "globalPitch": null
   },
-  "output": {
-    "globalHeadingExpression": "DrivingDirectionAngle + 90"
-  },
   "globalLocationFilter": ""
 }
