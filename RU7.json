@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/slashP/Vali/main/src/Vali/Schemas/vali.schema.json",
+  "countryCodes": [
+    "RU"
+  ],
+  "distributionStrategy": {
+    "key": "MaxCountByFixedMinDistance",
+    "FixedMinDistance": 1000
+    "countryDistributionFromMap": null
+  },
+  "subdivisionInclusions": {
+    "RU": [
+      "RU-MUR"
+    ]
+  },
+  "output": {
+    "locationTags": [],
+    "panoIdCountryCodes": [],
+    "globalHeadingExpression": "DrivingDirectionAngle",
+    "globalZoom": null,
+    "globalPitch": null
+  },
+  "globalLocationFilter": ""
+}
