@@ -3,14 +3,10 @@
   "countryCodes": [
     "RU"
   ],
-  "subdivisionInclusions": {
-    "RU": [
-      "RU-MUR"
-    ]
-  },
   "distributionStrategy": {
-    "key": "MaxCountByFixedMinDistance",
-    "FixedMinDistance": 1000
+    "key": "FixedCountByMaxMinDistance",
+    "minMinDistance": 200,
+    "locationCountGoal": 10000,
     "countryDistributionFromMap": null
   },
   "output": {
@@ -21,5 +17,8 @@
     "globalZoom": null,
     "globalPitch": null
   },
+  "output": {
+    "globalHeadingExpression": "DrivingDirectionAngle + 90"
+  }
   "globalLocationFilter": ""
 }
