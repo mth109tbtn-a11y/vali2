@@ -9,15 +9,14 @@
     ]
   },
   "distributionStrategy": {
-    "key": "FixedCountByMaxMinDistance",
-    "minMinDistance": 200,
-    "locationCountGoal": 10000,
+    "key": "MaxCountByFixedMinDistance",
+    "FixedMinDistance": 1000
     "countryDistributionFromMap": null
   },
   "output": {
     "locationTags": [],
     "panoIdCountryCodes": [],
-    "globalHeadingExpression": null,
+    "globalHeadingExpression": "DrivingDirectionAngle",
     "countryHeadingExpressions": null,
     "globalZoom": null,
     "globalPitch": null
