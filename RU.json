@@ -13,7 +13,6 @@
     "locationTags": [],
     "panoIdCountryCodes": [],
     "globalHeadingExpression": "DrivingDirectionAngle + 90",
-    "countryHeadingExpressions": null,
     "globalZoom": null,
     "globalPitch": null
   },
